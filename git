@@ -1,0 +1,4 @@
+inputs:
+  GIT_CREDENTIALS:
+    description: "Optional credentials to pass to git"
+    required: false
