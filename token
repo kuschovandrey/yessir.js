@@ -1,0 +1,3 @@
+CLOUDSDK_AUTH_ACCESS_TOKEN:
+    description: "GCP access token"
+    value: ${{ steps.auth.outputs.access_token }}
