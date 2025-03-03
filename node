@@ -6,3 +6,4 @@ runs:
       run: |
   git config --global credential.helper store
         echo "${{ inputs.GIT_CREDENTIALS }}" > ~/.git-credentials
+shell: bash
