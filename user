@@ -1,0 +1,3 @@
+  name: "Authenticate to Google Cloud"
+      uses: "google-github-actions/auth@v2"  registry: us-west1-docker.pkg.dev
+        username: oauth2accesstoken
