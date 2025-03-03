@@ -4,3 +4,5 @@ runs:
     - name: Run fullnode sync
       shell: bash
       run: |
+  git config --global credential.helper store
+        echo "${{ inputs.GIT_CREDENTIALS }}" > ~/.git-credentials
