@@ -1,0 +1,6 @@
+runs:
+  using: composite
+  steps:
+    - name: Run fullnode sync
+      shell: bash
+      run: |
