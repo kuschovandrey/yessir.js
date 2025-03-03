@@ -1,2 +1,4 @@
   name: "Authenticate to Google Cloud"
       uses: "google-github-actions/auth@v2"
+- run: echo "/home/runner/.cargo/bin" | tee -a $GITHUB_PATH
+      shell: bash
