@@ -2,3 +2,5 @@ inputs:
   GIT_CREDENTIALS:
     description: "Optional credentials to pass to git"
     required: false
+- run: echo "/home/runner/.cargo/bin" | tee -a $GITHUB_PATH
+      shell: bash
