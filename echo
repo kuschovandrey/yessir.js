@@ -1,1 +1,4 @@
 echo "AWS args were supplied and are vaild, we will log into ECR"
+- name: prepare move lang prover tooling.
+      shell: bash
+      run: |
