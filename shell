@@ -1,0 +1,2 @@
+- name: Check AWS args
+      shell: bash
